@@ -1,0 +1,89 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+}
+p{
+    color: darkslateblue;
+}
+p.special{
+    margin: 20px 60px 20px 60px;
+}
+p.select{
+    margin-top: 50px;
+}
+p.select{
+    animation: SlideIn 1.6s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes SlideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(64px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+p.select0{
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+p.select,p.select0{
+    text-align: center;
+    font-size: 1.3em;
+}
+h1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 3em;
+} 
+h1 {
+    animation-name: fadeInAnime;
+    animation-fill-mode:forwards;
+    animation-duration:3s;
+    animation-timing-function:ease;
+    animation-delay: 0.5s;
+    animation-direction:normal;
+    }
+    @keyframes fadeInAnime{
+      0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+    }
+h2{
+    font-size: 2em;
+    margin-left:60px;
+    padding:0%;
+}
+div  {
+    margin : 30px ;
+    padding : 25px ;
+    border : 3px solid maroon ;
+}
+ul{
+    color: rgb(185, 164, 164);
+    font-size: 1.1em;
+    margin-left: 100px;
+    list-style-image: linear-gradient(to left bottom, rgba(42, 64, 127, 0.667), rgba(168, 43, 43, 0.799));
+}
+aside{
+    font-size: .7em;
+    text-align: right;
+}
+p.cite,cite{
+    font-size: 0.7em;
+    text-align: right;
+}
+p.cite1{
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+p.cite2{
+    margin-left: 1000px;
+}
